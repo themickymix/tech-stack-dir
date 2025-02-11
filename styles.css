@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fa;
+    color: #2d3748;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1a202c;
+    font-size: 2.5rem;
+}
+
+.search-container {
+    margin-bottom: 2rem;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+
+/* Masonry Grid Layout */
+.categories {
+    column-count: 4;
+    column-gap: 1rem;
+    padding: 1rem;
+}
+
+.category {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2rem;
+    break-inside: avoid; /* Prevent items from breaking into new columns */
+}
+
+.category:hover {
+    transform: translateY(-4px);
+}
+
+.category h2 {
+    color: #2b6cb0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.tools-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tools-list li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tools-list li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.tool-link {
+    display: block;
+    padding: 0.5rem 0;
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-weight: 600;
+}
+
+.tool-link:hover {
+    color: #2b6cb0;
+}
+
+.tool-description {
+    font-size: 0.9rem;
+    color: #718096;
+    margin-top: 0.25rem;
+    line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .categories {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .categories {
+        column-count: 1;
+    }
+}
