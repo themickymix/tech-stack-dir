@@ -131,6 +131,11 @@ const techData = {
       description:
         "Progressive Node.js framework for building scalable server-side applications",
     },
+    Hono: {
+      url: "https://https://hono.dev/.com",
+      description:
+        "Fast, lightweight, built on Web Standards. Support for any JavaScript runtime",
+    },
     Django: {
       url: "https://www.djangoproject.com",
       description:
@@ -178,6 +183,27 @@ const techData = {
       url: "https://clerk.dev",
       description: "Complete user management and authentication solution",
     },
+    Okta: {
+      url: "https://www.okta.com",
+      description: "Secure access for everyone, everywhere",
+    },
+    Keycloak: {
+      url: "https://www.keycloak.org",
+      description:
+        "Open Source Identity and Access Management for modern applications and services",
+    },
+    "Supabase Auth": {
+      url: "https://supabase.io/docs/guides/auth",
+      description: "The open source Firebase alternative",
+    },
+    "Magic.link": {
+      url: "https://magic.link",
+      description: "Passwordless authentication for web and mobile apps",
+    },
+    "NextAuth.js": {
+      url: "https://next-auth.js.org",
+      description: "Authentication for Next.js applications",
+    },
   },
   "Database & ORMs": {
     PostgreSQL: {
@@ -219,6 +245,26 @@ const techData = {
     Mongoose: {
       url: "https://mongoosejs.com",
       description: "MongoDB object modeling tool for Node.js",
+    },
+    Cassandra: {
+      url: "https://cassandra.apache.org",
+      description: "Distributed NoSQL database management system",
+    },
+    Firestore: {
+      url: "https://firebase.google.com/products/firestore",
+      description: "Flexible, scalable database for mobile, web, and server",
+    },
+    DynamoDB: {
+      url: "https://aws.amazon.com/dynamodb",
+      description: "Fully managed NoSQL database service",
+    },
+    FaunaDB: {
+      url: "https://fauna.com",
+      description: "Serverless cloud database with native GraphQL access",
+    },
+    Supabase: {
+      url: "https://supabase.io",
+      description: "Open source Firebase alternative",
     },
   },
   Security: {
@@ -287,10 +333,6 @@ const techData = {
       url: "https://squareup.com/developers",
       description: "Payment and point of sale solutions for businesses",
     },
-    "Shopify API": {
-      url: "https://shopify.dev",
-      description: "API for building Shopify apps and integrations",
-    },
   },
   "DevOps & CI/CD": {
     Docker: {
@@ -324,6 +366,10 @@ const techData = {
     NGINX: {
       url: "https://www.nginx.com",
       description: "Web server, reverse proxy, load balancer, and HTTP cache",
+    },
+    Apache: {
+      url: "https://httpd.apache.org",
+      description: "Open-source web server software",
     },
   },
   Testing: {
@@ -385,6 +431,15 @@ const techData = {
       url: "https://socket.io",
       description:
         "Library for real-time web applications with bidirectional communication",
+    },
+    "ws (ws)": {
+      url: "https://github.com/websockets/ws",
+      description:
+        "Ligthweight Websocket Server & Client for Node.js and Browsers",
+    },
+    EventEmitter3: {
+      url: "https://www.npmjs.com/package/eventemitter3",
+      description: "Custom Event handling",
     },
     WebRTC: {
       url: "https://webrtc.org",
